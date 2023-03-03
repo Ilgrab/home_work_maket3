@@ -1,0 +1,370 @@
+body{
+	font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*_______Шапка_____________________________________________________________*/
+.header {}
+
+.header__bloc-background{
+	background-color: #FDFDFB;
+	max-height: 57px;
+}
+.header__container {}
+
+._container {
+	max-width: 1170px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
+}
+
+.header__menu {
+	display: flex;
+	max-height: 85px;
+}
+/*_____Глаынй блок____________________________________________________*/
+
+.menu {}
+.menu__logo {}
+
+.menu__item-logo {
+	padding: 20px 0px 0px 0px;
+
+}
+.menu__list-items {
+	display: flex;
+	list-style-type: none;
+	padding: 0px 0px 0px 250px;
+}
+
+.menu__item {
+
+}
+.menu__item-link {
+	text-decoration: none;
+	margin: 0px 15px;
+	color: #555248;
+}
+.menu__dop-icons {
+	padding: 30px 0px 0px 268px;
+	display: inline-flex;
+}
+.menu__icon {
+	margin: 0px 10px;
+
+}
+
+/*_____Блок товаров________________________________________________________*/
+.page {}
+.page__main-bloc {}
+.main-bloc {}
+
+.main-bloc__bloc-background1{
+	background-color: #FDFDFB;
+}
+
+.main-bloc__container {}
+
+.main-bloc__body {
+	display: inline-flex;
+	max-height: 768px;
+}
+
+.main-bloc__text-bloc{
+	padding: 264px 0px 0px 0px;
+}
+.main-bloc__title {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 60px;
+
+}
+.main-bloc__supbtitle {
+	font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+}
+.main-bloc__text {
+	font-size: 14px;
+
+}
+.main-bloc__buttons {
+	padding: 64px 0px 0px 0px;
+}
+.main-bloc__button {
+	text-decoration: none;
+	height: 64px;
+	width: 205px;
+	display: flex;
+	color: white;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	align-items: center;
+	justify-content: center;
+	background-color: #444240;
+}
+.main-bloc__price {
+	padding: 166px 0px 0px 0px;
+
+}
+
+.main-bloc__group-img{
+	display: flex;
+	background-image: url(img/back/Ellipse.png) ;
+	background-repeat: no-repeat;
+}
+
+.main-bloc__img-watch-main{
+	padding: 0px 0px 0px 20px;
+}
+
+
+.main-bloc__diametr {
+	padding: 664px 0px 0px 0px;
+}
+
+
+.main-bloc__body-list-sel {
+	padding: 66px 0px 0px 0px;
+}
+.main-bloc__list-sel-title {
+	font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+padding: 0px 0px 0px 430px
+
+}
+
+.main-bloc__list-sel-all-items{
+	padding: 0px 0px 0px 1000px;
+}
+
+.main-bloc__list-sel-items-bloc{
+	padding: 52px 0px 0px 0px;
+	display: flex;
+}
+
+.main-bloc__list-sel-items {
+	background-color: #FDFDFB;
+	margin: 0px 17px;
+
+}
+
+.main-bloc__list-sel-item {}
+
+.main-bloc__list-sel-article {
+	padding: 40px 0px 0px 40px;
+	font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+
+.main-bloc__list-sel-price {
+	font-size: 12px;
+	padding: 0px 0px 0px 40px;
+}
+
+.main-bloc__list-sel-img {
+	background-image: url(img/back/Ellipse-fon.png);
+	background-repeat: no-repeat;
+}
+
+.main-bloc__list-sel-inform {
+	font-size: 16px;
+}
+
+/*_____Гарантия качества________________________________________________*/
+.main-bloc__Guarantee-information {
+	padding: 86px 0px 0px 0px;
+}
+.Guarantee-information {}
+
+.main-bloc__bloc-background3{
+	background-color: #FDFDFB;
+	max-height: 519px;
+}
+.Guarantee-information__body {
+	
+	display: flex;
+	
+}
+.Guarantee-information__img {
+
+}
+
+.Guarantee-information__text-body {
+	padding: 140px 0px 0px 69px;
+	background-repeat: no-repeat;
+
+}
+
+.Guarantee-information__title {
+	font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+	
+}
+.Guarantee-information__text {
+	padding: 38px 0px 0px 0px;
+	font-size: 16px;
+}
+.Guarantee-information__buttoms {
+	padding: 71px 0px 0px 0px;
+
+}
+.Guarantee-information__but {
+
+	height: 64px;
+	width: 205px;
+	display: flex;
+
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.05em;
+	align-items: center;
+	justify-content: center;
+	background-color: #D4B098;
+}
+
+/*_____Блок рассылки__________________________________________________________*/
+
+.main-bloc__newsletter {
+	padding: 83px 0px 0px 0px;
+}
+.main-bloc__bloc-background4 {
+		max-height: 460px;
+}
+.newsletter__body {
+	display: flex;
+}
+.newsletter__text-bloc {
+	padding: 138px 0px 0px 0px;
+}
+.newsletter__title {
+	font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+}
+.newsletter__text {
+	padding: 40px 0px 0px 0px;
+	font-size: 16px;
+
+}
+.newsletter__mess {
+	padding: 118px 0px 0px 0px;
+}
+
+.newsletter__i-f-t{
+	margin: 0px 9px;
+
+}
+.newsletter__set-img {
+	display: flex;
+}
+
+.newsletter__side{
+	display: flex;
+	flex-direction: column;
+}
+.newsletter__img1 {
+	width: 242px;
+	height: 228px;
+	margin: 5px;
+}
+.newsletter__img2 {
+	width: 242px;
+	height: 222px;
+	margin: 5px;
+}
+.newsletter__img3 {
+	width: 377px;
+	height: 460px;
+	margin: 5px;
+}
+
+/*_____Подвал сайта__________________________________________________________*/
+
+.footer {
+	padding: 83px 0px 0px 0px;
+	height: 257px;
+}
+.footer__bloc-background {
+	background-color: #444240;
+}
+.footer__container {}
+.footer__body-foot {
+	color: white;
+	display: flex;
+}
+.body-foot {
+	
+}
+.body-foot__logo-num-email {
+	padding: 67px 0px 0px 0px;
+}
+.body-foot__num {
+	padding: 22px 0px 0px 0px;
+	font-size: 12px;
+}
+.body-foot__e-mail {
+	padding: 15px 0px 0px 0px;
+	font-size: 12px;
+}
+
+.body-foot__bloc-inform{
+	display: flex;
+	padding: 0px 0px 0px 118px;
+}
+.body-foot__inf-comp {
+
+}
+.body-foot__title {
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+	padding: 75px 0px 0px 120px;
+}
+.body-foot__links {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+	padding: 15px 0px 0px 120px;
+}
+.body-foot__link {
+	margin: 8px 0px;
+}
+.body-foot__customers {}
+.body-foot__pay-deli {}
